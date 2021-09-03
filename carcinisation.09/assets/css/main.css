@@ -1,0 +1,37 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-image:url("background/crab.gif");
+}
+
+@font-face {
+	font-family:'scribblefill';
+	src: url('fonts/Scribble-Fill.otf');
+}
+
+a {
+	color:red;
+}
+
+div.title {
+	font-size:130px;
+	text-align:center;
+	font-family:'scribblefill';
+	color:white;	
+}
+
+div.secondarytitle {
+	font-size:30px;
+	text-align:center;
+	padding-top:230px;
+	font-family:helvetica;
+	color:white;
+}
+
+div.thirdtitle {
+	font-size:30px;
+	text-align:center;
+	padding-top:30px;
+	font-family:helvetica;
+	color:white;
+}

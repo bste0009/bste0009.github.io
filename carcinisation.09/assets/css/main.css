@@ -21,9 +21,10 @@ div.title {
 }
 
 div.secondarytitle {
+	width:50%;
 	font-size:30px;
-	text-align:center;
-	padding-top:230px;
+	text-align:right;
+	padding-top:250px;
 	font-family:helvetica;
 	color:white;
 }

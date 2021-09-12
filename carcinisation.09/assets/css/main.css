@@ -1,38 +1,250 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-image:url("background/crab.gif");
-}
-
-@font-face {
-	font-family:'scribblefill';
-	src: url('fonts/Scribble-Fill.otf');
 }
 
 a {
-	color:red;
+	color: black;
+	text-decoration: none;
+	background-color: blanchedalmond;
+	border-radius: 5px;
+}
+
+a:hover {
+	color:orangered;
+}
+
+img {
+	width:100%;
+}
+
+/* General */
+
+@font-face {
+	font-family:'gtregular';
+	src: url('fonts/GT-Super-Text-Regular-v4.otf');
+}
+
+@font-face {
+	font-family:'gtitalic';
+	src: url('fonts/GT-Super-Text-Regular-Italic-v4.otf');
+}
+
+@font-face {
+	font-family:'nationalregular';
+	src: url('fonts/National-Regular.otf');
+}
+
+/* Startpage */
+
+body.startpage {
+	background-image:url("background/crab.gif");
 }
 
 div.title {
-	font-size:130px;
-	text-align:center;
-	font-family:'scribblefill';
-	color:white;	
+	font-size:40px;
+	text-align:left;
+	padding-top:330px;
+	padding-left:250px;
+	font-family:'nationalregular';
+	color:blanchedalmond;
 }
 
 div.secondarytitle {
-	width:50%;
+	width:90%;
 	font-size:30px;
-	text-align:right;
-	padding-top:250px;
-	font-family:helvetica;
-	color:white;
+	text-align:left;
+	padding-top:10px;
+	padding-left:250px;
+	font-family:'gtitalic';
+	color:blanchedalmond;
 }
 
 div.thirdtitle {
 	font-size:30px;
-	text-align:center;
+	text-align:left;
+	width:60%;
+	padding-top:10px;
+	padding-left:250px;
+	font-family:'nationalregular';
+	color:blanchedalmond;
+}
+
+/* Emoji page */
+
+body.emojispage {
+	background-size:100%;
+	background-image:url("background/blueyellowcrab.jpg");
+}
+
+#crabemoji {
+	font-size:3em;
+	animation-name:slide;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+#crabemojifast {
+	font-size:3em;
+	animation-name:slide;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	padding:20px;
+}
+
+#crabemojisuperfast {
+	font-size:3em;
+	animation-name:slide;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	padding:5px;
+}
+
+#crabemojislow {
+	font-size:3em;
+	animation-name:slide;
+	animation-duration:11s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+	padding:30px;
+}
+
+@keyframes slide {
+	100% {
+		transform:translateX(100vw);
+	}
+}
+
+/* Article Page */
+
+body.why {
+	background-color:blanchedalmond;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+	color:orangered;
+}
+
+.why {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.article {
+	width:50%;
+	height:100vh;
+	font-family:'nationalregular';
+	font-size:25px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	overflow:scroll;
+}
+
+.articlecredit {
+	font-family:'nationalregular';
+	font-size:25px;
+	padding-top:20px;
+	padding-left:10px;
+}
+
+.whytitle {
+	font-family:'gtregular';
+	font-size:140px;
 	padding-top:30px;
-	font-family:helvetica;
-	color:white;
+	padding-left:10px;
+	width:50%;
+	height:70%;
+}
+
+
+/* Immitation Crab Page */
+
+body.imitation {
+	background-color:blanchedalmond;
+}
+
+.intro {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.bluecrabimage {
+	width:50%;
+	margin-right:20px;
+}
+
+.crabstick {
+	width:40%;
+	padding-top:10px;
+	font-family:'gtitalic';
+	font-size:25px;
+}
+
+.crabsticktwo {
+	width:40%;
+	padding-top:250px;
+	font-family:'gtregular';
+	font-size:25px;
+}
+
+.crabstickthree {
+	width:100%;
+	padding-top:250px;
+	font-family:'gtregular';
+	font-size:25px;
+	text-align:right;
+}
+
+/* Kani Page */
+
+body.kanipage
+{
+	background-color:blanchedalmond;
+}
+
+.kani {
+	width:50vw;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:150px;
+}
+
+.kanitext {
+	text-align:center;
+	font-size:30px;
+	padding:10px;
+	font-family:'gtregular';
+	color:black;
+}
+
+/* Feeling Crabby Page */
+
+body.feelingcrabbypage {
+	background-size:100%;
+	background-image:url("background/bluecrab.jpg");
+}
+
+.crabbytext {
+	font-family:'gtitalic';
+	font-size: 100px;
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.crabbytextarticle {
+	font-family:'nationalregular';
+	font-size:25px;
+	padding-top:30px;
+	padding-left:20px;
+	width:40%;
+	height:70vh;
+	overflow:scroll;
 }

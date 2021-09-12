@@ -124,14 +124,6 @@ body.why {
 	background-color:blanchedalmond;
 }
 
-a {
-	color:black;
-}
-
-a:hover {
-	color:orangered;
-}
-
 .why {
 	display:flex;
 	flex-wrap:wrap;

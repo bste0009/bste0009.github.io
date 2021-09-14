@@ -6,8 +6,6 @@ body {
 a {
 	color: black;
 	text-decoration: none;
-	background-color: blanchedalmond;
-	border-radius: 5px;
 }
 
 a:hover {
@@ -38,7 +36,7 @@ img {
 /* Startpage */
 
 body.startpage {
-	background-image:url("background/crab.gif");
+	background-image:url("background/sandcrabcropped.gif");
 }
 
 div.title {
@@ -47,7 +45,7 @@ div.title {
 	padding-top:330px;
 	padding-left:250px;
 	font-family:'nationalregular';
-	color:blanchedalmond;
+	color:black;
 }
 
 div.secondarytitle {
@@ -57,7 +55,7 @@ div.secondarytitle {
 	padding-top:10px;
 	padding-left:250px;
 	font-family:'gtitalic';
-	color:blanchedalmond;
+	color:black;
 }
 
 div.thirdtitle {
@@ -67,7 +65,7 @@ div.thirdtitle {
 	padding-top:10px;
 	padding-left:250px;
 	font-family:'nationalregular';
-	color:blanchedalmond;
+	color:black;
 }
 
 /* Emoji page */
@@ -221,12 +219,12 @@ body.kanipage
 
 body.feelingcrabbypage {
 	background-size:100%;
-	background-image:url("background/bluecrab.jpg");
+	background-image:url("background/pinkgreencrab.jpg");
 }
 
 .crabbytext {
-	font-family:'gtitalic';
-	font-size: 100px;
+	font-family:'gtregular';
+	font-size:70px;
 	padding-top:20px;
 	padding-left:20px;
 }
@@ -236,7 +234,8 @@ body.feelingcrabbypage {
 	font-size:25px;
 	padding-top:30px;
 	padding-left:20px;
-	width:40%;
+	width:35%;
 	height:70vh;
 	overflow:scroll;
+	text-align: justify;
 }

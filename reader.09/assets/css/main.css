@@ -58,6 +58,22 @@ body {
 	font-size: 20px;
   }
 
+  #interviewquestion {
+	  font-family: "monumentmedium";
+	  font-size:15px;
+	  margin-left:10%;
+  }
+
+  #interviewanswer {
+	  font-family: "gtdisplay";
+	  font-size:15px;
+  }
+
+
+  #largeheading {
+	font-family: "monumentbold";
+	font-size:70px;
+}
 
   #biggestheading {
 	  font-family: "monumentbold";
@@ -116,7 +132,6 @@ body {
   }
   
   .regrettext {
-	overflow:scroll;
 	font-family:'gtdisplay';
 	font-size: 20px;
 }
@@ -175,7 +190,7 @@ div.button:hover {
   /* Overcoming Originality */ 
 
   .overcoming {
-	height: 55%;
+	height: 60%;
 	width: 100vw;
 	background-color: white;
 	position: fixed;
@@ -198,7 +213,7 @@ div.button:hover {
   .col {
 	width: 50%;
 	height: 100vh;
-	overflow: scroll;
+	overflow:scroll;
   }
 
   .overcomingtext {
@@ -212,6 +227,7 @@ div.button:hover {
 	  font-family:'gtdisplay';
 	  font-size:15px;
 	  width:50%;
+	  overflow:scroll;
   }
 
   /* Amorphous Rave: Before streetwear there was clubwear */
@@ -266,3 +282,26 @@ div.button:hover {
 	  font-family:'monumentbold';
 	  font-size:20px;
   }
+
+ /* click to open*/
+
+ div.main {
+	margin-top: 50px;
+	margin-left:60%;
+	margin-right:10%;
+	margin-top: 20%;
+	border: 4px solid black;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: arial;
+	text-decoration: none;
+	text-align:center;
+	font-size: 40px;
+	color: black;
+	transform: rotate(10deg);
+  }
+  
+  
+  
+
+
